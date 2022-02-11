@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/src/style.css">
+    <link rel="stylesheet" href="css/src/utlity.css.css">
+    <link rel="stylesheet" href="css/src/responsive.css.css">
+    <title>Reverse</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="number-list">Number Reverse</a></li>
+                <li><a href="#" id="string-list">String Reverse</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="container" id="string-container">
+            <input type="text" name="string" id="string" placeholder="String Reverse" autocomplete="on" autofocus />
+            <p class="results" id="results"></p>
+            <div class="btn-container">
+                <button type="button" name="enter" id="enter" class="enter">Enter</button>
+                <button type="button" name="reseat" class="reseat" id="reseat">Reseat</button>
+            </div>
+        </div>
+        <div class="container" id="number-container">
+            <input type="number" name="number" id="number" placeholder="Number Reverse" autocomplete="on" autofocus />
+            <p class="results"></p>
+            <div class="btn-container">
+                <button type="button" name="enter" id="enter" class="enter">Enter</button>
+                <button type="button" class="reseat" name="reseat" id="reseat">Reseat</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/src/main.js"></script>
+</body>
+
+</html>
